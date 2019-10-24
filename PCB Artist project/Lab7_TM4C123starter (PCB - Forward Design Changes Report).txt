@@ -6,33 +6,11 @@ Report Written:     Thursday, October 24, 2019
 Design Path:        C:\Keil_v5\EE 445L Lab 11\Electronics\PCB Artist project\Lab7_TM4C123starter.pcb
 Design Title:       
 Created:            1/29/2013 12:01:41 AM
-Last Saved:         10/14/2019 2:55:04 PM
-Editing Time:       935 min
+Last Saved:         10/24/2019 2:44:54 PM
+Editing Time:       1151 min
 Units:              mil (precision 0)
 
-Disconnected pin "U4.2" from net "PB5".
-Disconnected pin "U4.3" from net "PB0".
-Disconnected pin "U4.23" from net "PD0".
-Disconnected pin "U4.4" from net "PB1".
-Disconnected pin "U4.24" from net "PD1".
-Disconnected pin "U4.5" from net "PE4".
-Disconnected pin "U4.25" from net "PD2".
-Disconnected pin "U4.6" from net "PE5".
-Disconnected pin "U4.7" from net "PB4".
-Disconnected pin "U4.8" from net "PA5".
-Disconnected pin "U4.9" from net "PA6".
-Disconnected pin "U4.10" from net "PA7".
-Disconnected pin "U4.19" from net "PB2".
-Disconnected pin "U4.38" from net "PB3".
-Disconnected pin "U4.15" from net "PB7".
-Disconnected pin "U4.33" from net "PD6".
-Disconnected pin "U4.32" from net "PD7".
-Disconnected pin "U4.14" from net "PB6".
-Disconnected pin "U4.13" from net "PA4".
-Disconnected pin "U4.12" from net "PA3".
-Disconnected pin "U4.11" from net "PA2".
-
-Deleted component reference "U4".
+The designs are the same, so no design changes to forward.
 
 
 End Of Report.

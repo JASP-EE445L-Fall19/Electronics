@@ -6,8 +6,8 @@ Report Written:     Thursday, October 24, 2019
 Design Path:        C:\Keil_v5\EE 445L Lab 11\Electronics\PCB Artist project\Lab7_TM4C123starter.pcb
 Design Title:       
 Created:            1/29/2013 12:01:41 AM
-Last Saved:         10/14/2019 2:55:04 PM
-Editing Time:       935 min
+Last Saved:         10/24/2019 2:44:54 PM
+Editing Time:       1151 min
 Units:              mil (precision 0)
 
 
