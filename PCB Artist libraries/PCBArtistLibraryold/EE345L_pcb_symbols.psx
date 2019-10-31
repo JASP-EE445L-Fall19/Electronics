@@ -18,7 +18,7 @@
 4pinHeader0.156||4
 4pinHeader100mil_sideMount||4
 4x25crystal||4
-5pinHeader||5
+5pinheader||5
 5watt||2
 6pinHeader||6
 7pinHeader||7
@@ -115,6 +115,7 @@ RC0603||2
 RC0603polarized||2
 RC0805||2
 RF2500T||6
+RTC||5
 SC70||5
 SC70-3||3
 SIP-14||14

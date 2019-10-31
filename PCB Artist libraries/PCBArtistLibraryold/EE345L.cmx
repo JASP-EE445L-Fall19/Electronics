@@ -125,6 +125,7 @@ OPA330AIDCKT||#DCK=5=SC70||@Manufacturer=||@Manufacturer Part Number=||@Distribu
 OPA2350||#DIP=8=DIP8||@Manufacturer=||@Manufacturer Part Number=||@Distributor=||@Distributor Part Number=||#SMD=8=SOIC8MAX||@Manufacturer=||@Manufacturer Part Number=||@Distributor=||@Distributor Part Number=
 OPA4350||#DIP=14=DIP14||@Manufacturer=||@Manufacturer Part Number=||@Distributor=||@Distributor Part Number=
 PACTEC XP Case||#MISC=4=PACTEC XP Case||@Manufacturer=||@Manufacturer Part Number=||@Distributor=||@Distributor Part Number=||#MISC2=4=PACTEC XP Case Low||@Manufacturer=||@Manufacturer Part Number=||@Distributor=||@Distributor Part Number=
+PCF8523||#USER=5=RTC||@[Description]=RTC||@Manufacturer=||@Manufacturer Part Number=||@Distributor=||@Distributor Part Number=
 PN2222||#TO92=3=TO-92||@Manufacturer=||@Manufacturer Part Number=||@Distributor=||@Distributor Part Number=
 Power3||#SIL=3=3pinPowerHeader0_156||@[Description]=3-pin power jack||@Manufacturer=||@Manufacturer Part Number=||@Distributor=||@Distributor Part Number=
 Power4||#MISC=4=4pinHeader0.156||@Manufacturer=||@Manufacturer Part Number=||@Distributor=||@Distributor Part Number=
