@@ -2624,11 +2624,11 @@ design rules under a new name.</description>
 <attribute name="NAME" x="-153.67" y="-187.833" size="1.778" layer="25" ratio="10"/>
 <attribute name="VALUE" x="-153.797" y="-190.5" size="1.778" layer="27" ratio="10"/>
 </element>
-<element name="C12" library="EE445L" package="CAP200MIL" value="" x="-151.13" y="-205.74" smashed="yes">
+<element name="C12" library="EE445L" package="CAP200MIL" value="4.7uF, Tantalum" x="-151.13" y="-205.74" smashed="yes">
 <attribute name="NAME" x="-153.289" y="-204.343" size="1.27" layer="25" ratio="10"/>
 <attribute name="VALUE" x="-153.289" y="-208.407" size="1.27" layer="27" ratio="10"/>
 </element>
-<element name="C13" library="EE445L" package="CAP200MIL" value="" x="-151.13" y="-210.82" smashed="yes">
+<element name="C13" library="EE445L" package="CAP200MIL" value="4.7uF, Tantalum" x="-151.13" y="-210.82" smashed="yes">
 <attribute name="NAME" x="-153.289" y="-209.423" size="1.27" layer="25" ratio="10"/>
 <attribute name="VALUE" x="-153.289" y="-213.487" size="1.27" layer="27" ratio="10"/>
 </element>
@@ -3078,6 +3078,12 @@ design rules under a new name.</description>
 <contactref element="R9" pad="2"/>
 <contactref element="D1" pad="A"/>
 <wire x1="-153.277" y1="-214.63" x2="-151.45" y2="-219.71" width="0" layer="19" extent="1-1"/>
+</signal>
+<signal name="PP0">
+<contactref element="U1" pad="118"/>
+</signal>
+<signal name="PP1">
+<contactref element="U1" pad="119"/>
 </signal>
 </signals>
 <mfgpreviewcolors>

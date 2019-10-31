@@ -1,0 +1,15 @@
+Pour Copper Report
+------------------
+
+Report File:        C:\Keil_v5\EE 445L Lab 11\Electronics\PCB Artist project\UTX-2019F304 (PCB - Pour Copper Report).txt
+Report Written:     Wednesday, October 30, 2019
+Design Path:        C:\Keil_v5\EE 445L Lab 11\Electronics\PCB Artist project\UTX-2019F304.pcb
+Design Title:       
+Created:            1/29/2013 12:01:41 AM
+Last Saved:         10/30/2019 11:14:46 PM
+Editing Time:       10170 min
+Units:              mil (precision 0)
+
+Via at 11288,9713 has no thermal spokes
+
+End Of Report.
