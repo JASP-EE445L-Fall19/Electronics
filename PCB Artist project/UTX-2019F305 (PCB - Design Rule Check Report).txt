@@ -1,0 +1,61 @@
+Design Rule Check Report
+------------------------
+
+Report File:        C:\Keil_v5\EE 445L Lab 11\Electronics\PCB Artist project\UTX-2019F305 (PCB - Design Rule Check Report).txt
+Report Written:     Thursday, October 31, 2019
+Design Path:        C:\Keil_v5\EE 445L Lab 11\Electronics\PCB Artist project\UTX-2019F305.pcb
+Design Title:       
+Created:            1/29/2013 12:01:41 AM
+Last Saved:         10/31/2019 11:02:28 AM
+Editing Time:       10184 min
+Units:              mil (precision 0)
+
+
+Results
+=======
+
+
+No errors found
+
+
+Settings
+========
+
+
+Spacings
+
+=========
+
+Tracks        Yes
+Pads and Vias Yes
+Shapes        Yes
+Text          Yes
+Board         Yes
+Drills        Yes
+Components    No
+
+
+Manufacturing
+
+==============
+
+Min Drill Hole Size  Yes
+Min Track Width      Yes
+Min Annular Ring     Yes
+Copper Text In Board Yes
+Mirrored Text        Yes
+Routing Areas        Yes
+Drill Breakout       Yes
+
+
+Nets
+
+=====
+
+Net Completion               Yes
+Dangling Tracks              Yes
+Net Track Length Differences No
+
+
+
+End Of Report.
