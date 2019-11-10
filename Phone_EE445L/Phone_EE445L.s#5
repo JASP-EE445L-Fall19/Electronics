@@ -12388,32 +12388,6 @@ requirements for VBAT</text>
 <wire x1="45.72" y1="40.64" x2="45.72" y2="43.18" width="0.1524" layer="91"/>
 <junction x="45.72" y="43.18"/>
 </segment>
-</net>
-<net name="RBIAS" class="0">
-<segment>
-<label x="81.28" y="91.694" size="1.778" layer="95"/>
-<pinref part="R1" gate="G$1" pin="2"/>
-<wire x1="78.74" y1="91.44" x2="78.74" y2="88.9" width="0.1524" layer="91"/>
-<pinref part="U1" gate="G$17" pin="RBIAS"/>
-<wire x1="91.44" y1="76.2" x2="88.9" y2="76.2" width="0.1524" layer="91"/>
-<wire x1="88.9" y1="76.2" x2="88.9" y2="91.44" width="0.1524" layer="91"/>
-<wire x1="88.9" y1="91.44" x2="78.74" y2="91.44" width="0.1524" layer="91"/>
-</segment>
-</net>
-<net name="+3V3" class="0">
-<segment>
-<pinref part="CURRENT" gate="G$1" pin="2"/>
-<wire x1="-27.94" y1="20.32" x2="-15.24" y2="20.32" width="0.1524" layer="91"/>
-<pinref part="+3V2" gate="G$1" pin="+3V3"/>
-<wire x1="-15.24" y1="20.32" x2="-15.24" y2="33.02" width="0.1524" layer="91"/>
-</segment>
-<segment>
-<pinref part="+3V1" gate="G$1" pin="+3V3"/>
-<pinref part="R7" gate="G$1" pin="2"/>
-<wire x1="86.36" y1="0" x2="86.36" y2="-2.54" width="0.1524" layer="91"/>
-</segment>
-</net>
-<net name="GNDA" class="0">
 <segment>
 <pinref part="U1" gate="G$18" pin="GNDA"/>
 <wire x1="-91.44" y1="-35.56" x2="-81.28" y2="-35.56" width="0.1524" layer="91"/>
@@ -12460,6 +12434,30 @@ requirements for VBAT</text>
 <wire x1="-5.08" y1="-38.1" x2="-15.24" y2="-38.1" width="0.1524" layer="91"/>
 <junction x="-5.08" y="-38.1"/>
 <junction x="-15.24" y="-38.1"/>
+</segment>
+</net>
+<net name="RBIAS" class="0">
+<segment>
+<label x="81.28" y="91.694" size="1.778" layer="95"/>
+<pinref part="R1" gate="G$1" pin="2"/>
+<wire x1="78.74" y1="91.44" x2="78.74" y2="88.9" width="0.1524" layer="91"/>
+<pinref part="U1" gate="G$17" pin="RBIAS"/>
+<wire x1="91.44" y1="76.2" x2="88.9" y2="76.2" width="0.1524" layer="91"/>
+<wire x1="88.9" y1="76.2" x2="88.9" y2="91.44" width="0.1524" layer="91"/>
+<wire x1="88.9" y1="91.44" x2="78.74" y2="91.44" width="0.1524" layer="91"/>
+</segment>
+</net>
+<net name="+3V3" class="0">
+<segment>
+<pinref part="CURRENT" gate="G$1" pin="2"/>
+<wire x1="-27.94" y1="20.32" x2="-15.24" y2="20.32" width="0.1524" layer="91"/>
+<pinref part="+3V2" gate="G$1" pin="+3V3"/>
+<wire x1="-15.24" y1="20.32" x2="-15.24" y2="33.02" width="0.1524" layer="91"/>
+</segment>
+<segment>
+<pinref part="+3V1" gate="G$1" pin="+3V3"/>
+<pinref part="R7" gate="G$1" pin="2"/>
+<wire x1="86.36" y1="0" x2="86.36" y2="-2.54" width="0.1524" layer="91"/>
 </segment>
 </net>
 <net name="VREFA+" class="0">
@@ -12559,7 +12557,7 @@ requirements for VBAT</text>
 <label x="68.58" y="-14.986" size="1.778" layer="95"/>
 </segment>
 </net>
-<net name="N$2" class="0">
+<net name="VDD" class="0">
 <segment>
 <pinref part="U1" gate="G$16" pin="VDD@1"/>
 <wire x1="-30.48" y1="-10.16" x2="-30.48" y2="-7.62" width="0.1524" layer="91"/>
@@ -12779,8 +12777,8 @@ requirements for VBAT</text>
 <text x="76.2" y="71.12" size="1.778" layer="91">UART0 Debugger</text>
 <text x="-86.36" y="-65.786" size="1.778" layer="95">CS1</text>
 <text x="-86.36" y="-60.706" size="1.778" layer="95">MOSI1</text>
-<text x="2.54" y="-35.306" size="1.778" layer="95">U2Rx</text>
-<text x="2.54" y="-37.846" size="1.778" layer="95">U2Tx</text>
+<text x="1.27" y="-35.306" size="1.778" layer="95">U2Rx</text>
+<text x="1.27" y="-37.846" size="1.778" layer="95">U2Tx</text>
 </plain>
 <instances>
 <instance part="FRAME3" gate="G$1" x="-127" y="-96.52" smashed="yes"/>
@@ -13629,7 +13627,7 @@ requirements for VBAT</text>
 <pinref part="U6TX" gate="G$1" pin="TP"/>
 </segment>
 </net>
-<net name="N$9" class="0">
+<net name="DACOUT" class="0">
 <segment>
 <pinref part="U2" gate="G$1" pin="OUT"/>
 <pinref part="C14" gate="G$1" pin="2"/>
@@ -13663,14 +13661,14 @@ requirements for VBAT</text>
 <junction x="-5.08" y="-25.4"/>
 </segment>
 </net>
-<net name="N$14" class="0">
+<net name="HPF" class="0">
 <segment>
 <pinref part="C14" gate="G$1" pin="1"/>
 <pinref part="R10" gate="G$1" pin="1"/>
 <wire x1="35.56" y1="15.24" x2="40.64" y2="15.24" width="0.1524" layer="91"/>
 </segment>
 </net>
-<net name="N$15" class="0">
+<net name="AMPIN" class="0">
 <segment>
 <pinref part="R10" gate="G$1" pin="2"/>
 <pinref part="U3" gate="G$1" pin="IN-"/>

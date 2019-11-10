@@ -12646,7 +12646,7 @@ requirements for VBAT</text>
 <wire x1="-15.24" y1="2.54" x2="-5.08" y2="2.54" width="0.1524" layer="91"/>
 </segment>
 </net>
-<net name="N$3" class="0">
+<net name="WAKEVDD" class="0">
 <segment>
 <pinref part="R3" gate="G$1" pin="2"/>
 <pinref part="R4" gate="G$1" pin="1"/>
@@ -12777,8 +12777,8 @@ requirements for VBAT</text>
 <text x="76.2" y="71.12" size="1.778" layer="91">UART0 Debugger</text>
 <text x="-86.36" y="-65.786" size="1.778" layer="95">CS1</text>
 <text x="-86.36" y="-60.706" size="1.778" layer="95">MOSI1</text>
-<text x="2.54" y="-35.306" size="1.778" layer="95">U2Rx</text>
-<text x="2.54" y="-37.846" size="1.778" layer="95">U2Tx</text>
+<text x="1.27" y="-35.306" size="1.778" layer="95">U2Rx</text>
+<text x="1.27" y="-37.846" size="1.778" layer="95">U2Tx</text>
 </plain>
 <instances>
 <instance part="FRAME3" gate="G$1" x="-127" y="-96.52" smashed="yes"/>
@@ -13627,7 +13627,7 @@ requirements for VBAT</text>
 <pinref part="U6TX" gate="G$1" pin="TP"/>
 </segment>
 </net>
-<net name="N$9" class="0">
+<net name="DACOUT" class="0">
 <segment>
 <pinref part="U2" gate="G$1" pin="OUT"/>
 <pinref part="C14" gate="G$1" pin="2"/>
@@ -13661,14 +13661,14 @@ requirements for VBAT</text>
 <junction x="-5.08" y="-25.4"/>
 </segment>
 </net>
-<net name="N$14" class="0">
+<net name="HPF" class="0">
 <segment>
 <pinref part="C14" gate="G$1" pin="1"/>
 <pinref part="R10" gate="G$1" pin="1"/>
 <wire x1="35.56" y1="15.24" x2="40.64" y2="15.24" width="0.1524" layer="91"/>
 </segment>
 </net>
-<net name="N$15" class="0">
+<net name="AMPIN" class="0">
 <segment>
 <pinref part="R10" gate="G$1" pin="2"/>
 <pinref part="U3" gate="G$1" pin="IN-"/>
